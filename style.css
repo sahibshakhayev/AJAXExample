@@ -1,0 +1,72 @@
+body {
+background-color: gainsboro;
+font-family: sans-serif;
+
+}
+
+
+
+
+.container {
+min-width: 300px;
+min-height: 100px;
+background-color: #FFFFFF;
+display: flex;
+width: auto;
+max-width: 80%;
+flex-direction: column;
+align-items: center;
+margin-left: 10%;
+margin-top: 10%;
+border-radius: 10px;
+box-shadow: -1px 4px 43px 0px rgba(143,129,129,0.75);
+-webkit-box-shadow: -1px 4px 43px 0px rgba(143,129,129,0.75);
+-moz-box-shadow: -1px 4px 43px 0px rgba(143,129,129,0.75);
+}
+
+.s-bar {
+margin-top: 15px;
+}
+
+#userInput {
+border: none;
+background-color: #DBDBDB;
+padding: 5px;
+border-radius: 5px;
+}
+
+#searchButton {
+border: none;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 5px;
+background-color: #728F7A;
+color: #C5DBCC;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+
+#red {
+color: red;
+
+
+}
+
+.info {
+display: flex;
+padding-top: 30px;
+padding-bottom: 30px;
+gap: 20px;
+
+}
+
+
+
+img {
+border-radius: 50%;
+height: 300px;
+
+}
